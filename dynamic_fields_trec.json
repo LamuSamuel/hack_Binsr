@@ -1,0 +1,1920 @@
+{
+  "template_sha256": "5def4efc765aee953a028446596dd97b9f974cb0851153e15b07447568d3ed4c",
+  "fields": [
+    {
+      "page": 1,
+      "name": "client_name",
+      "type": "text",
+      "box": [
+        0.065,
+        0.870,
+        0.515, 
+        0.870
+      ],
+      "size": 10
+    },
+    {
+      "page": 1,
+      "name": "date",
+      "type": "text",
+      "box": [
+        0.565,
+        0.870,
+        0.895,
+        0.870
+      ],
+      "size": 10
+    },
+    {
+      "page": 1,
+      "name": "address",
+      "type": "text",
+      "box": [
+        0.065,
+        0.837,
+        0.895,
+        0.837
+      ],
+      "size": 10
+    },
+    {
+      "page": 1,
+      "name": "inspector",
+      "type": "text",
+      "box": [
+        0.065,
+        0.805,
+        0.895,
+        0.805
+      ],
+      "size": 10
+    },
+    {
+      "page": 1,
+      "name": "trec_license",
+      "type": "text",
+      "box": [
+        0.565,
+        0.807,
+        0.895,
+        0.807
+      ],
+      "size": 10
+    },
+    {
+      "page": 2,
+      "name": "inspector_additional_info",
+      "type": "multiline",
+      "box": [0.10, 0.16, 0.90, 0.44],
+      "size": 10
+    },
+    {
+      "page": 3,
+      "name": "foundations_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.762,
+        0.112,
+        0.79
+      ]
+    },
+    {
+      "page": 3,
+      "name": "foundations_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.762,
+        0.137,
+        0.79
+      ]
+    },
+    {
+      "page": 3,
+      "name": "foundations_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.762,
+        0.162,
+        0.79
+      ]
+    },
+    {
+      "page": 3,
+      "name": "foundations_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.762,
+        0.187,
+        0.79
+      ]
+    },
+    {
+      "page": 3,
+      "name": "foundations_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.742,
+        0.895,
+        0.76
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "grading_and_drainage_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.704,
+        0.112,
+        0.732
+      ]
+    },
+    {
+      "page": 3,
+      "name": "grading_and_drainage_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.704,
+        0.137,
+        0.732
+      ]
+    },
+    {
+      "page": 3,
+      "name": "grading_and_drainage_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.704,
+        0.162,
+        0.732
+      ]
+    },
+    {
+      "page": 3,
+      "name": "grading_and_drainage_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.704,
+        0.187,
+        0.732
+      ]
+    },
+    {
+      "page": 3,
+      "name": "grading_and_drainage_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6839999999999999,
+        0.895,
+        0.702
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "roof_covering_materials_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.6459999999999999,
+        0.112,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_covering_materials_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.6459999999999999,
+        0.137,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_covering_materials_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.6459999999999999,
+        0.162,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_covering_materials_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.6459999999999999,
+        0.187,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_covering_materials_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6259999999999999,
+        0.895,
+        0.6439999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "roof_structure_and_attic_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5879999999999999,
+        0.112,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_structure_and_attic_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5879999999999999,
+        0.137,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_structure_and_attic_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5879999999999999,
+        0.162,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_structure_and_attic_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5879999999999999,
+        0.187,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 3,
+      "name": "roof_structure_and_attic_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5679999999999998,
+        0.895,
+        0.5859999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "walls_interior_and_exterior_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5299999999999998,
+        0.112,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "walls_interior_and_exterior_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5299999999999998,
+        0.137,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "walls_interior_and_exterior_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5299999999999998,
+        0.162,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "walls_interior_and_exterior_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5299999999999998,
+        0.187,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "walls_interior_and_exterior_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5099999999999998,
+        0.895,
+        0.5279999999999998
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "ceilings_and_floors_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.47199999999999975,
+        0.112,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "ceilings_and_floors_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.47199999999999975,
+        0.137,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "ceilings_and_floors_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.47199999999999975,
+        0.162,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "ceilings_and_floors_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.47199999999999975,
+        0.187,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 3,
+      "name": "ceilings_and_floors_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.45199999999999974,
+        0.895,
+        0.46999999999999975
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "doors_interior_and_exterior_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.4139999999999997,
+        0.112,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "doors_interior_and_exterior_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.4139999999999997,
+        0.137,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "doors_interior_and_exterior_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.4139999999999997,
+        0.162,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "doors_interior_and_exterior_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.4139999999999997,
+        0.187,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "doors_interior_and_exterior_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.3939999999999997,
+        0.895,
+        0.4119999999999997
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "windows_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.35599999999999965,
+        0.112,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "windows_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.35599999999999965,
+        0.137,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "windows_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.35599999999999965,
+        0.162,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "windows_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.35599999999999965,
+        0.187,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 3,
+      "name": "windows_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.33599999999999963,
+        0.895,
+        0.35399999999999965
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "stairways_interior_and_exterior_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.2979999999999996,
+        0.112,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 3,
+      "name": "stairways_interior_and_exterior_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.2979999999999996,
+        0.137,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 3,
+      "name": "stairways_interior_and_exterior_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.2979999999999996,
+        0.162,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 3,
+      "name": "stairways_interior_and_exterior_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.2979999999999996,
+        0.187,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 3,
+      "name": "stairways_interior_and_exterior_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.2779999999999996,
+        0.895,
+        0.2959999999999996
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "fireplaces_and_chimneys_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.23999999999999957,
+        0.112,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 3,
+      "name": "fireplaces_and_chimneys_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.23999999999999957,
+        0.137,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 3,
+      "name": "fireplaces_and_chimneys_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.23999999999999957,
+        0.162,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 3,
+      "name": "fireplaces_and_chimneys_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.23999999999999957,
+        0.187,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 3,
+      "name": "fireplaces_and_chimneys_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.21999999999999958,
+        0.895,
+        0.23799999999999957
+      ],
+      "size": 9
+    },
+    {
+      "page": 3,
+      "name": "porches_balconies_decks_carports_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.18199999999999958,
+        0.112,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 3,
+      "name": "porches_balconies_decks_carports_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.18199999999999958,
+        0.137,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 3,
+      "name": "porches_balconies_decks_carports_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.18199999999999958,
+        0.162,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 3,
+      "name": "porches_balconies_decks_carports_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.18199999999999958,
+        0.187,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 3,
+      "name": "porches_balconies_decks_carports_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.1619999999999996,
+        0.895,
+        0.17999999999999958
+      ],
+      "size": 9
+    },
+    {
+      "page": 4,
+      "name": "service_entrance_and_panels_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.762,
+        0.112,
+        0.79
+      ]
+    },
+    {
+      "page": 4,
+      "name": "service_entrance_and_panels_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.762,
+        0.137,
+        0.79
+      ]
+    },
+    {
+      "page": 4,
+      "name": "service_entrance_and_panels_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.762,
+        0.162,
+        0.79
+      ]
+    },
+    {
+      "page": 4,
+      "name": "service_entrance_and_panels_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.762,
+        0.187,
+        0.79
+      ]
+    },
+    {
+      "page": 4,
+      "name": "service_entrance_and_panels_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.742,
+        0.895,
+        0.76
+      ],
+      "size": 9
+    },
+    {
+      "page": 4,
+      "name": "branch_circuits_devices_fixtures_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.704,
+        0.112,
+        0.732
+      ]
+    },
+    {
+      "page": 4,
+      "name": "branch_circuits_devices_fixtures_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.704,
+        0.137,
+        0.732
+      ]
+    },
+    {
+      "page": 4,
+      "name": "branch_circuits_devices_fixtures_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.704,
+        0.162,
+        0.732
+      ]
+    },
+    {
+      "page": 4,
+      "name": "branch_circuits_devices_fixtures_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.704,
+        0.187,
+        0.732
+      ]
+    },
+    {
+      "page": 4,
+      "name": "branch_circuits_devices_fixtures_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6839999999999999,
+        0.895,
+        0.702
+      ],
+      "size": 9
+    },
+    {
+      "page": 4,
+      "name": "heating_equipment_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.6459999999999999,
+        0.112,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "heating_equipment_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.6459999999999999,
+        0.137,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "heating_equipment_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.6459999999999999,
+        0.162,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "heating_equipment_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.6459999999999999,
+        0.187,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "heating_equipment_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6259999999999999,
+        0.895,
+        0.6439999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 4,
+      "name": "cooling_equipment_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5879999999999999,
+        0.112,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "cooling_equipment_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5879999999999999,
+        0.137,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "cooling_equipment_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5879999999999999,
+        0.162,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "cooling_equipment_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5879999999999999,
+        0.187,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 4,
+      "name": "cooling_equipment_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5679999999999998,
+        0.895,
+        0.5859999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 4,
+      "name": "duct_system_chases_vents_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5299999999999998,
+        0.112,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 4,
+      "name": "duct_system_chases_vents_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5299999999999998,
+        0.137,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 4,
+      "name": "duct_system_chases_vents_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5299999999999998,
+        0.162,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 4,
+      "name": "duct_system_chases_vents_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5299999999999998,
+        0.187,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 4,
+      "name": "duct_system_chases_vents_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5099999999999998,
+        0.895,
+        0.5279999999999998
+      ],
+      "size": 9
+    },
+    {
+      "page": 5,
+      "name": "plumbing_supply_distribution_fixtures_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.762,
+        0.112,
+        0.79
+      ]
+    },
+    {
+      "page": 5,
+      "name": "plumbing_supply_distribution_fixtures_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.762,
+        0.137,
+        0.79
+      ]
+    },
+    {
+      "page": 5,
+      "name": "plumbing_supply_distribution_fixtures_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.762,
+        0.162,
+        0.79
+      ]
+    },
+    {
+      "page": 5,
+      "name": "plumbing_supply_distribution_fixtures_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.762,
+        0.187,
+        0.79
+      ]
+    },
+    {
+      "page": 5,
+      "name": "plumbing_supply_distribution_fixtures_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.742,
+        0.895,
+        0.76
+      ],
+      "size": 9
+    },
+    {
+      "page": 5,
+      "name": "drains_wastes_vents_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.704,
+        0.112,
+        0.732
+      ]
+    },
+    {
+      "page": 5,
+      "name": "drains_wastes_vents_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.704,
+        0.137,
+        0.732
+      ]
+    },
+    {
+      "page": 5,
+      "name": "drains_wastes_vents_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.704,
+        0.162,
+        0.732
+      ]
+    },
+    {
+      "page": 5,
+      "name": "drains_wastes_vents_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.704,
+        0.187,
+        0.732
+      ]
+    },
+    {
+      "page": 5,
+      "name": "drains_wastes_vents_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6839999999999999,
+        0.895,
+        0.702
+      ],
+      "size": 9
+    },
+    {
+      "page": 5,
+      "name": "water_heating_equipment_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.6459999999999999,
+        0.112,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "water_heating_equipment_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.6459999999999999,
+        0.137,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "water_heating_equipment_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.6459999999999999,
+        0.162,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "water_heating_equipment_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.6459999999999999,
+        0.187,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "water_heating_equipment_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6259999999999999,
+        0.895,
+        0.6439999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 5,
+      "name": "hydro_massage_therapy_equipment_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5879999999999999,
+        0.112,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "hydro_massage_therapy_equipment_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5879999999999999,
+        0.137,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "hydro_massage_therapy_equipment_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5879999999999999,
+        0.162,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "hydro_massage_therapy_equipment_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5879999999999999,
+        0.187,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 5,
+      "name": "hydro_massage_therapy_equipment_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5679999999999998,
+        0.895,
+        0.5859999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "dishwashers_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.762,
+        0.112,
+        0.79
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dishwashers_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.762,
+        0.137,
+        0.79
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dishwashers_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.762,
+        0.162,
+        0.79
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dishwashers_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.762,
+        0.187,
+        0.79
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dishwashers_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.742,
+        0.895,
+        0.76
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "food_waste_disposers_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.704,
+        0.112,
+        0.732
+      ]
+    },
+    {
+      "page": 6,
+      "name": "food_waste_disposers_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.704,
+        0.137,
+        0.732
+      ]
+    },
+    {
+      "page": 6,
+      "name": "food_waste_disposers_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.704,
+        0.162,
+        0.732
+      ]
+    },
+    {
+      "page": 6,
+      "name": "food_waste_disposers_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.704,
+        0.187,
+        0.732
+      ]
+    },
+    {
+      "page": 6,
+      "name": "food_waste_disposers_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6839999999999999,
+        0.895,
+        0.702
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "ranges_cooktops_and_ovens_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.6459999999999999,
+        0.112,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "ranges_cooktops_and_ovens_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.6459999999999999,
+        0.137,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "ranges_cooktops_and_ovens_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.6459999999999999,
+        0.162,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "ranges_cooktops_and_ovens_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.6459999999999999,
+        0.187,
+        0.6739999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "ranges_cooktops_and_ovens_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.6259999999999999,
+        0.895,
+        0.6439999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "microwave_ovens_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5879999999999999,
+        0.112,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "microwave_ovens_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5879999999999999,
+        0.137,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "microwave_ovens_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5879999999999999,
+        0.162,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "microwave_ovens_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5879999999999999,
+        0.187,
+        0.6159999999999999
+      ]
+    },
+    {
+      "page": 6,
+      "name": "microwave_ovens_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5679999999999998,
+        0.895,
+        0.5859999999999999
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "mechanical_exhaust_vents_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.5299999999999998,
+        0.112,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "mechanical_exhaust_vents_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.5299999999999998,
+        0.137,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "mechanical_exhaust_vents_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.5299999999999998,
+        0.162,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "mechanical_exhaust_vents_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.5299999999999998,
+        0.187,
+        0.5579999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "mechanical_exhaust_vents_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.5099999999999998,
+        0.895,
+        0.5279999999999998
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "dryers_exhaust_systems_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.47199999999999975,
+        0.112,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dryers_exhaust_systems_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.47199999999999975,
+        0.137,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dryers_exhaust_systems_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.47199999999999975,
+        0.162,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dryers_exhaust_systems_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.47199999999999975,
+        0.187,
+        0.4999999999999998
+      ]
+    },
+    {
+      "page": 6,
+      "name": "dryers_exhaust_systems_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.45199999999999974,
+        0.895,
+        0.46999999999999975
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "other_built_in_appliances_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.4139999999999997,
+        0.112,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_built_in_appliances_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.4139999999999997,
+        0.137,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_built_in_appliances_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.4139999999999997,
+        0.162,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_built_in_appliances_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.4139999999999997,
+        0.187,
+        0.4419999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_built_in_appliances_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.3939999999999997,
+        0.895,
+        0.4119999999999997
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "lawn_and_garden_sprinkler_systems_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.35599999999999965,
+        0.112,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "lawn_and_garden_sprinkler_systems_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.35599999999999965,
+        0.137,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "lawn_and_garden_sprinkler_systems_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.35599999999999965,
+        0.162,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "lawn_and_garden_sprinkler_systems_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.35599999999999965,
+        0.187,
+        0.3839999999999997
+      ]
+    },
+    {
+      "page": 6,
+      "name": "lawn_and_garden_sprinkler_systems_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.33599999999999963,
+        0.895,
+        0.35399999999999965
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "swimming_pools_spas_hot_tubs_equipment_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.2979999999999996,
+        0.112,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 6,
+      "name": "swimming_pools_spas_hot_tubs_equipment_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.2979999999999996,
+        0.137,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 6,
+      "name": "swimming_pools_spas_hot_tubs_equipment_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.2979999999999996,
+        0.162,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 6,
+      "name": "swimming_pools_spas_hot_tubs_equipment_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.2979999999999996,
+        0.187,
+        0.3259999999999996
+      ]
+    },
+    {
+      "page": 6,
+      "name": "swimming_pools_spas_hot_tubs_equipment_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.2779999999999996,
+        0.895,
+        0.2959999999999996
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "outbuildings_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.23999999999999957,
+        0.112,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 6,
+      "name": "outbuildings_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.23999999999999957,
+        0.137,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 6,
+      "name": "outbuildings_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.23999999999999957,
+        0.162,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 6,
+      "name": "outbuildings_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.23999999999999957,
+        0.187,
+        0.26799999999999957
+      ]
+    },
+    {
+      "page": 6,
+      "name": "outbuildings_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.21999999999999958,
+        0.895,
+        0.23799999999999957
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "private_water_wells_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.18199999999999958,
+        0.112,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_water_wells_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.18199999999999958,
+        0.137,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_water_wells_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.18199999999999958,
+        0.162,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_water_wells_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.18199999999999958,
+        0.187,
+        0.20999999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_water_wells_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.1619999999999996,
+        0.895,
+        0.17999999999999958
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "private_sewage_systems_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.12399999999999958,
+        0.112,
+        0.15199999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_sewage_systems_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.12399999999999958,
+        0.137,
+        0.15199999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_sewage_systems_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.12399999999999958,
+        0.162,
+        0.15199999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_sewage_systems_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.12399999999999958,
+        0.187,
+        0.15199999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "private_sewage_systems_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.10399999999999958,
+        0.895,
+        0.12199999999999958
+      ],
+      "size": 9
+    },
+    {
+      "page": 6,
+      "name": "other_optional_items_I",
+      "type": "checkbox",
+      "box": [
+        0.095,
+        0.06599999999999959,
+        0.112,
+        0.09399999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_optional_items_NI",
+      "type": "checkbox",
+      "box": [
+        0.12,
+        0.06599999999999959,
+        0.137,
+        0.09399999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_optional_items_NP",
+      "type": "checkbox",
+      "box": [
+        0.145,
+        0.06599999999999959,
+        0.162,
+        0.09399999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_optional_items_D",
+      "type": "checkbox",
+      "box": [
+        0.17,
+        0.06599999999999959,
+        0.187,
+        0.09399999999999958
+      ]
+    },
+    {
+      "page": 6,
+      "name": "other_optional_items_notes",
+      "type": "multiline",
+      "box": [
+        0.135,
+        0.04599999999999958,
+        0.895,
+        0.06399999999999958
+      ],
+      "size": 9
+    }
+  ]
+}
