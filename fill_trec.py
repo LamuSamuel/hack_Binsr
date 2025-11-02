@@ -147,6 +147,18 @@ def shape_values(inspection):
                         or "Data not found in test data")
     out["trec_license"] = (inspection.get("inspector", {}).get("licenseNumber")
                            or "Data not found in test data")
+    out["inspector_additional_info"] = (
+        inspection.get("additionalInfo")
+        or inspection.get("generalNotes")
+        or inspection.get("inspector", {}).get("additionalInfo")
+        or inspection.get("summary", {}).get("notes")
+        or "Data not found in test data"
+    )
+    out["report_identification"] = (
+        f"{out['address']} - {out['date']}"
+        if out.get("address") and out.get("date")
+        else "Data not found in test data"
+    )
 
     systems = inspection.get("sections", []) or inspection.get("systems", [])
     for sec in systems:
@@ -222,6 +234,25 @@ def render(template_path, spec_path, values, out_path, debug=False):
             elif ftype == "link":
                 draw_text_in_box(c, str(val), box, font=font, size=size, color=col,
                                  valign="middle", debug=debug, name=name)
+            START_PAGE = 3  # change to 2 if you want it from page 2
+            HEADER_BOX_NORM = [0.22, 0.920, 0.80, 0.985]  # tweak with --debug once
+            HEADER_SIZE = 10
+
+            if pi >= START_PAGE:
+                # convert normalized box to points + sanitize
+                x0, y0, x1, y1 = denorm(HEADER_BOX_NORM, w, h)
+                if x0 > x1: x0, x1 = x1, x0
+                if y0 > y1: y0, y1 = y1, y0
+
+                draw_text_in_box(
+                    c,
+                    values.get("report_identification", "Report Identification: Data not found in test data"),
+                    (x0, y0, x1, y1),
+                    size=HEADER_SIZE,
+                    valign="middle",
+                    debug=debug,                   # shows the red box in --debug mode
+                    name="report_identification"   # helpful label in debug overlay
+                )
 
         c.save()
         packet.seek(0)
